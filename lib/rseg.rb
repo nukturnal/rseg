@@ -1,4 +1,4 @@
-$KCODE = 'UTF8'
+$KCODE = 'UTF8' unless RUBY_VERSION > "1.9.0"
 
 require 'singleton'
 require 'net/http'
